@@ -1,0 +1,4 @@
+org.springframework.security.config.annotation.web.configuration.EnableWebSecurity=\
+  uno.d1s.security.autoconfiguration.WebSecurityAutoConfiguration,\
+  uno.d1s.security.autoconfiguration.JwtOncePerRequestFilterAutoConfiguration,\
+  uno.d1s.security.configuration.ConfigurationPropertiesConfiguration

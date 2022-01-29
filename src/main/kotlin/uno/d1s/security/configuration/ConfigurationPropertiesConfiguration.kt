@@ -1,0 +1,9 @@
+package uno.d1s.security.configuration
+
+import org.springframework.boot.context.properties.EnableConfigurationProperties
+import org.springframework.context.annotation.Configuration
+import uno.d1s.security.configuration.property.JwtConfigurationProperties
+
+@Configuration
+@EnableConfigurationProperties(JwtConfigurationProperties::class)
+class ConfigurationPropertiesConfiguration
